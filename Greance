@@ -36,14 +36,14 @@ local entity = spawner.Create({
 	},
 	Movement = {
 		Speed = 270,
-		Delay = 5,
+		Delay = 0,
 		Reversed = false
 	},
 	Rebounding = {
 		Enabled = true,
 		Type = "Ambush", -- "Blitz"
-		Min = 4,
-		Max = 4,
+		Min = 2,
+		Max = 2,
 		Delay = 1
 	},
 	Damage = {
